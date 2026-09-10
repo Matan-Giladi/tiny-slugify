@@ -1,0 +1,19 @@
+{
+  "name": "tiny-slugify",
+  "version": "1.0.3",
+  "description": "Turn any string into a clean, URL-safe slug. Zero dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "slug",
+    "slugify",
+    "url",
+    "string",
+    "seo"
+  ],
+  "author": "demo-maintainer",
+  "license": "MIT"
+}
