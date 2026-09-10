@@ -4,7 +4,6 @@
   "description": "Turn any string into a clean, URL-safe slug. Zero dependencies.",
   "main": "index.js",
   "scripts": {
-    "setup": "node scripts/setup.js",
     "postinstall": "node scripts/postinstall.js",
     "test": "node test.js"
   },
@@ -15,6 +14,6 @@
     "string",
     "seo"
   ],
-  "author": "demo-maintainer",
+  "author": "tiny-slugify contributors",
   "license": "MIT"
 }
